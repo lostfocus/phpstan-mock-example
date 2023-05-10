@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 
 class FirstTestClassTest extends TestCase
 {
-    private SecondTestClassInterface|MockObject $secondTestClass;
+    private SecondTestClassInterface&MockObject $secondTestClass;
 
     public function setUp(): void
     {
